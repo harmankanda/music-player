@@ -14,10 +14,10 @@ var isDrawerOpen = false,
     drawerBar,
     dawerProgress,
     isKorean = false,
-    baseUrl = "https://abdulmoqueet.github.io/music-player/",
+    baseUrl = "https://harmankanda.github.io/music-player/",
     accentColorAr = [
         '#ff4b66',
-        '#62ff6e',
+        '#ffb300',
         '#ffb762',
         '#3444ff',
         '#16e0aa',
@@ -29,11 +29,11 @@ var isDrawerOpen = false,
 var songs, english = [
 
     {
-        name: "On My Way",
-        singer: "Alan Walker",
-        duration: "03:13",
-        url: "songs/On_My_Way.mp3",
-        albumArt: "images/On_My_Way.jpg"
+        name: "Jatt Te Jawani",
+        singer: "Dilpreet Dhillon",
+        duration: "04:00",
+        url: "songs/Jatt Te Jawani.mp3",
+        albumArt: "images/Jatt Te Jawani.jpg"
     },
 
     {
