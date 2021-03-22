@@ -33,7 +33,7 @@ var songs, english = [
         singer: "Dilpreet Dhillon",
         duration: "04:00",
         url: "songs/Jatt Te Jawani.mp3",
-        albumArt: "images/Jatt Te Jawani.png"
+        albumArt: "images/Jatt Te Jawani.jpg"
     },
 
     {
