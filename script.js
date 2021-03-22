@@ -32,8 +32,8 @@ var songs, english = [
         name: "Jatt Te Jawani",
         singer: "Dilpreet Dhillon",
         duration: "04:00",
-        url: "songs/Jatt Te Jawani.mp3",
-        albumArt: "images/Jatt Te Jawani.jpg"
+        url: "songs/Jatt_Te_Jawani.mp3",
+        albumArt: "images/Jatt_Te_Jawani.jpg"
     },
 
     {
@@ -41,7 +41,7 @@ var songs, english = [
         singer: "Alan Walker",
         duration: "03:16",
         url: "songs/Lily.mp3",
-        albumArt: "images/Lily.jpg"
+        albumArt: "images/Area_Je_Jatt.jpg"
     },
 
     {
@@ -49,7 +49,7 @@ var songs, english = [
         singer: "Alan Walker",
         duration: "03:05",
         url: "songs/End_Of_Time.mp3",
-        albumArt: "images/End_Of_Time.jpg"
+        albumArt: "images/Area_Je_Jatt.jpg"
     },
 
     {
