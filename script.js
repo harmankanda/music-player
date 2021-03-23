@@ -37,115 +37,155 @@ var songs, english = [
     },
 
     {
-        name: "Lily",
-        singer: "Alan Walker",
-        duration: "03:16",
-        url: "songs/Lily.mp3",
+        name: "Area De Jatt",
+        singer: "Darsh Dhaliwal",
+        duration: "04:13",
+        url: "songs/Area_Je_Jatt.mp3",
         albumArt: "images/Area_Je_Jatt.jpg"
     },
 
     {
-        name: "End Of Time",
-        singer: "Alan Walker",
-        duration: "03:05",
-        url: "songs/End_Of_Time.mp3",
-        albumArt: "images/Area_Je_Jatt.jpg"
-    },
-
-    {
-        name: "Alone Part II",
-        singer: "Alan Walker",
-        duration: "02:57",
-        url: "songs/Alone_Part_II.mp3",
-        albumArt: "images/Alone_Part_II.jpg"
-    },
-
-    {
-        name: "Sing Me To Sleep",
-        singer: "Alan Walker",
-        duration: "03:11",
-        url: "songs/Sing_Me_To_Sleep.mp3",
-        albumArt: "images/Sing_Me_To_Sleep.jpg"
-    },
-
-    {
-        name: "Ignite",
-        singer: "Alan Walker",
-        duration: "03:30",
-        url: "songs/Ignite.mp3",
-        albumArt: "images/Ignite.jpg"
-    },
-
-    {
-        name: "Faded",
-        singer: "Alan Walker",
-        duration: "03:32",
-        url: "songs/Faded.mp3",
-        albumArt: "images/Faded.jpg"
-    },
-
-    {
-        name: "Keep Holding On",
-        singer: "Avril Lavigne",
-        duration: "04:12",
-        url: "songs/Keep_Holding_On.mp3",
-        albumArt: "images/Keep_Holding_On.jpg"
-    },
-
-    {
-        name: "Give your heart a break",
-        singer: "Demi Lovato",
-        duration: "03:28",
-        url: "songs/Give_Your_Heart_a_Break.mp3",
-        albumArt: "images/Give_Your_Heart_a_Break.jpg"
-    },
-
-    {
-        name: "You are not alone",
-        singer: "Michael Jackson",
-        duration: "05:35",
-        url: "songs/You_Are_Not_Alone.mp3",
-        albumArt: "images/You_Are_Not_Alone.jpg"
-    },
-
-    {
-        name: "Skyscraper",
-        singer: "Demi Lovato",
-        duration: "03:11",
-        url: "songs/Skyscraper.mp3",
-        albumArt: "images/Skyscraper.jpg"
-    },
-
-    {
-        name: "Innocence",
-        singer: "Avril Lavigne",
-        duration: "03:50",
-        url: "songs/Innocence.mp3",
-        albumArt: "images/Keep_Holding_On.jpg"
-    },
-
-    {
-        name: "Wish you were here",
-        singer: "Avril Lavigne",
-        duration: "03:50",
-        url: "songs/Wish_You_Were_Here.mp3",
-        albumArt: "images/Wish_You_Were_Here.jpg"
-    },
-
-    {
-        name: "Heart Attack",
-        singer: "Demi Lovato",
+        name: "12 Dia 12",
+        singer: "Sippy Gill",
         duration: "03:29",
-        url: "songs/Heart_Attack.mp3",
-        albumArt: "images/Heart_Attack.jpg"
+        url: "songs/12_Dia_12.mp3",
+        albumArt: "images/12_Dia_12.jpg"
     },
 
     {
-        name: "Legends Never Die",
-        singer: "Alan Walker",
-        duration: "02:45",
-        url: "songs/Legends_Never_Die.mp3",
-        albumArt: "images/Legends_Never_Die.jpg"
+        name: "Asle",
+        singer: "Gurman Sandhu",
+        duration: "03:06",
+        url: "songs/Asle.mp3",
+        albumArt: "images/Asle.jpg"
+    },
+
+    {
+        name: "Das Ja",
+        singer: "Lehmber Hussainpuri",
+        duration: "03:55",
+        url: "songs/Das_Ja.mp3",
+        albumArt: "images/Das_Ja.jpg"
+    },
+
+    {
+        name: "Dilbar",
+        singer: "Khan Bhaini",
+        duration: "04:13",
+        url: "songs/Dilbar.mp3",
+        albumArt: "images/Dilbar.jpg"
+    },
+
+    {
+        name: "Hukam",
+        singer: "Karan Aujla",
+        duration: "03:49",
+        url: "songs/Hukam.mp3",
+        albumArt: "images/Hukam.jpg"
+    },
+
+    {
+        name: "Jaan",
+        singer: "Barbie Maan",
+        duration: "03:17",
+        url: "songs/Jaan.mp3",
+        albumArt: "images/Jaan.jpg"
+    },
+
+    {
+        name: "Jatta De Munde",
+        singer: "Tarsem Jassar",
+        duration: "04:01",
+        url: "songs/Jatt_De_Munde.mp3",
+        albumArt: "images/Jatt_De_Munde.jpg"
+    },
+
+    {
+        name: "Jigra",
+        singer: "Varinder Brar",
+        duration: "03:14",
+        url: "songs/Jigra.mp3",
+        albumArt: "images/Jigra.jpg"
+    },
+
+    {
+        name: "Lamborghini",
+        singer: "Khan Bhaini",
+        duration: "03:05",
+        url: "songs/Lamborghini.mp3",
+        albumArt: "images/Lamborghini.jpg"
+    },
+
+    {
+        name: "Mera Mahi Tu Pateya",
+        singer: "Lehmber Hussainpuri",
+        duration: "04:26",
+        url: "songs/Mera_Mahi_Tu_Pateya.mp3",
+        albumArt: "images/Mera_Mahi_Tu_Pateya.jpg"
+    },
+
+    {
+        name: "Mexico",
+        singer: "Karan Aujla",
+        duration: "03:26",
+        url: "songs/Mexico.mp3",
+        albumArt: "images/Mexico.jpg"
+    },
+
+    {
+        name: "Note Muqabla",
+        singer: "Goldy Desi Crew",
+        duration: "03:25",
+        url: "songs/Note_Muqabla.mp3",
+        albumArt: "images/Note_Muqabla.jpg"
+    },
+
+    {
+        name: "Pind De Ghere",
+        singer: "Rupinder Handa",
+        duration: "03:00",
+        url: "songs/Pind_De_Gheree.mp3",
+        albumArt: "images/Pind_De_Gheree.jpg"
+    },
+
+    {
+        name: "Rayban",
+        singer: "Sukh Lotey",
+        duration: "03:28",
+        url: "songs/Rayban.mp3",
+        albumArt: "images/Rayban.jpg"
+    },
+
+    {
+        name: "Scratch",
+        singer: "Gursewak Dhillon",
+        duration: "03:16",
+        url: "songs/Scratch.mp3",
+        albumArt: "images/Scratch.jpg"
+    },
+
+    {
+        name: "Soh_Lagge",
+        singer: "Nav Dolorain",
+        duration: "03:12",
+        url: "songs/Soh_Lagge.mp3",
+        albumArt: "images/Soh_Lagge.jpg"
+    },
+
+    {
+        name: "Tommy",
+        singer: "Diljit Dosanjh",
+        duration: "02:50",
+        url: "songs/Tommy.mp3",
+        albumArt: "images/Tommy.jpg"
+    },
+
+    {
+        name: "Tappe",
+        singer: "Ammy Virk",
+        duration: "03:30",
+        url: "songs/Tappe.mp3",
+        albumArt: "images/Tappe.jpg"
     },
 
     {
