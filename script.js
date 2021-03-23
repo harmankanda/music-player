@@ -93,6 +93,14 @@ var songs, Punjabi = [
     },
 
     {
+        name: "Teeji Seat",
+        singer: "Kaka",
+        duration: "02:24",
+        url: "songs/Teeji_Seat.mp3",
+        albumArt: "images/Teeji_Seat.jpg"
+    },
+
+    {
         name: "Jatta De Munde",
         singer: "Tarsem Jassar",
         duration: "04:01",
