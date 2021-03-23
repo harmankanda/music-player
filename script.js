@@ -144,8 +144,8 @@ var songs, english = [
         name: "Pind De Ghere",
         singer: "Rupinder Handa",
         duration: "03:00",
-        url: "songs/Pind_De_Gheree.mp3",
-        albumArt: "images/Pind_De_Gheree.jpg"
+        url: "songs/Pind_De_Ghere.mp3",
+        albumArt: "images/Pind_De_Ghere.jpg"
     },
 
     {
