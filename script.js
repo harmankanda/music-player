@@ -26,7 +26,7 @@ var isDrawerOpen = false,
         '#000000'
     ];
 
-var songs, english = [
+var songs, Punjabi = [
 
     {
         name: "Jatt Te Jawani",
@@ -539,15 +539,15 @@ function generateElements(ko) {
 
     if (ko) {
         songs = korean;
-        $('.left-pannel__anime').text('_K-POP');
+        $('.left-pannel__anime').text('_Hindi');
         $('.left-pannel__anime').css('color', currentProfile.accentColor);
-        $('.left-pannel__favorite').text('English');
+        $('.left-pannel__favorite').text('Punjabi');
         $('.left-pannel__favorite').css('color', "black");
     } else {
-        songs = english;
-        $('.left-pannel__favorite').text('_English');
+        songs = Punjabi;
+        $('.left-pannel__favorite').text('_Punjabi');
         $('.left-pannel__favorite').css('color', currentProfile.accentColor);
-        $('.left-pannel__anime').text('K-POP');
+        $('.left-pannel__anime').text('Hindi');
         $('.left-pannel__anime').css('color', "black");
     }
 
