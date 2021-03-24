@@ -13,7 +13,7 @@ var isDrawerOpen = false,
     drawerSongDuration,
     drawerBar,
     dawerProgress,
-    isKorean = false,
+    isHindi = false,
     baseUrl = "https://harmankanda.github.io/music-player/",
     accentColorAr = [
         '#ff4b66',
@@ -32,168 +32,176 @@ var songs, Punjabi = [
         name: "Jatt Te Jawani",
         singer: "Dilpreet Dhillon",
         duration: "04:00",
-        url: "songs/Jatt_Te_Jawani.mp3",
-        albumArt: "images/Jatt_Te_Jawani.jpg"
+        url: "songs/Punjabi/Jatt_Te_Jawani.mp3",
+        albumArt: "images/Punjabi/Jatt_Te_Jawani.jpg"
     },
 
     {
         name: "Area De Jatt",
         singer: "Darsh Dhaliwal",
         duration: "04:13",
-        url: "songs/Area_Je_Jatt.mp3",
-        albumArt: "images/Area_Je_Jatt.jpg"
+        url: "songs/Punjabi/Area_Je_Jatt.mp3",
+        albumArt: "images/Punjabi/Area_Je_Jatt.jpg"
     },
 
     {
         name: "12 Dia 12",
         singer: "Sippy Gill",
         duration: "03:29",
-        url: "songs/12_Dia_12.mp3",
-        albumArt: "images/12_Dia_12.jpg"
+        url: "songs/Punjabi/12_Dia_12.mp3",
+        albumArt: "images/Punjabi/12_Dia_12.jpg"
     },
 
     {
         name: "Asle",
         singer: "Gurman Sandhu",
         duration: "03:06",
-        url: "songs/Asle.mp3",
-        albumArt: "images/Asle.jpg"
+        url: "songs/Punjabi/Asle.mp3",
+        albumArt: "images/Punjabi/Asle.jpg"
     },
 
     {
         name: "Das Ja",
         singer: "Lehmber Hussainpuri",
         duration: "03:55",
-        url: "songs/Das_Ja.mp3",
-        albumArt: "images/Das_Ja.jpg"
+        url: "songs/Punjabi/Das_Ja.mp3",
+        albumArt: "images/Punjabi/Das_Ja.jpg"
     },
 
     {
         name: "Dilbar",
         singer: "Khan Bhaini",
         duration: "04:13",
-        url: "songs/Dilbar.mp3",
-        albumArt: "images/Dilbar.jpg"
+        url: "songs/Punjabi/Dilbar.mp3",
+        albumArt: "images/Punjabi/Dilbar.jpg"
     },
 
     {
         name: "Hukam",
         singer: "Karan Aujla",
         duration: "03:49",
-        url: "songs/Hukam.mp3",
-        albumArt: "images/Hukam.jpg"
+        url: "songs/Punjabi/Hukam.mp3",
+        albumArt: "images/Punjabi/Hukam.jpg"
     },
 
     {
         name: "Jaan",
         singer: "Barbie Maan",
         duration: "03:17",
-        url: "songs/Jaan.mp3",
-        albumArt: "images/Jaan.jpg"
+        url: "songs/Punjabi/Jaan.mp3",
+        albumArt: "images/Punjabi/Jaan.jpg"
     },
 
     {
         name: "Teeji Seat",
         singer: "Kaka",
         duration: "02:24",
-        url: "songs/Teeji_Seat.mp3",
-        albumArt: "images/Teeji_Seat.jpg"
+        url: "songs/Punjabi/Teeji_Seat.mp3",
+        albumArt: "images/Punjabi/Teeji_Seat.jpg"
     },
 
     {
         name: "Jatta De Munde",
         singer: "Tarsem Jassar",
         duration: "04:01",
-        url: "songs/Jatt_De_Munde.mp3",
-        albumArt: "images/Jatt_De_Munde.jpg"
+        url: "songs/Punjabi/Jatt_De_Munde.mp3",
+        albumArt: "images/Punjabi/Jatt_De_Munde.jpg"
     },
 
     {
         name: "Jigra",
         singer: "Varinder Brar",
         duration: "03:14",
-        url: "songs/Jigra.mp3",
-        albumArt: "images/Jigra.jpg"
+        url: "songs/Punjabi/Jigra.mp3",
+        albumArt: "images/Punjabi/Jigra.jpg"
     },
 
     {
         name: "Lamborghini",
         singer: "Khan Bhaini",
         duration: "03:05",
-        url: "songs/Lamborghini.mp3",
-        albumArt: "images/Lamborghini.jpg"
+        url: "songs/Punjabi/Lamborghini.mp3",
+        albumArt: "images/Punjabi/Lamborghini.jpg"
+    },
+
+    {
+        name: "Vadda Bai",
+        singer: "Gurtaj",
+        duration: "02:39",
+        url: "songs/Punjabi/Vadda_Bai.mp3",
+        albumArt: "images/Punjabi/Vadda_Bai.jpg"
     },
 
     {
         name: "Mera Mahi Tu Pateya",
         singer: "Lehmber Hussainpuri",
         duration: "04:26",
-        url: "songs/Mera_Mahi_Tu_Pateya.mp3",
-        albumArt: "images/Mera_Mahi_Tu_Pateya.jpg"
+        url: "songs/Punjabi/Mera_Mahi_Tu_Pateya.mp3",
+        albumArt: "images/Punjabi/Mera_Mahi_Tu_Pateya.jpg"
     },
 
     {
         name: "Mexico",
         singer: "Karan Aujla",
         duration: "03:26",
-        url: "songs/Mexico.mp3",
-        albumArt: "images/Mexico.jpg"
+        url: "songs/Punjabi/Mexico.mp3",
+        albumArt: "images/Punjabi/Mexico.jpg"
     },
 
     {
         name: "Note Muqabla",
         singer: "Goldy Desi Crew",
         duration: "03:25",
-        url: "songs/Note_Muqabla.mp3",
-        albumArt: "images/Note_Muqabla.jpg"
+        url: "songs/Punjabi/Note_Muqabla.mp3",
+        albumArt: "images/Punjabi/Note_Muqabla.jpg"
     },
 
     {
         name: "Pind De Ghere",
         singer: "Rupinder Handa",
         duration: "03:00",
-        url: "songs/Pind_De_Ghere.mp3",
-        albumArt: "images/Pind_De_Ghere.jpg"
+        url: "songs/Punjabi/Pind_De_Ghere.mp3",
+        albumArt: "images/Punjabi/Pind_De_Ghere.jpg"
     },
 
     {
         name: "Rayban",
         singer: "Sukh Lotey",
         duration: "03:28",
-        url: "songs/Rayban.mp3",
-        albumArt: "images/Rayban.jpg"
+        url: "songs/Punjabi/Rayban.mp3",
+        albumArt: "images/Punjabi/Rayban.jpg"
     },
 
     {
         name: "Scratch",
         singer: "Gursewak Dhillon",
         duration: "03:16",
-        url: "songs/Scratch.mp3",
-        albumArt: "images/Scratch.jpg"
+        url: "songs/Punjabi/Scratch.mp3",
+        albumArt: "images/Punjabi/Scratch.jpg"
     },
 
     {
         name: "Soh_Lagge",
         singer: "Nav Dolorain",
         duration: "03:12",
-        url: "songs/Soh_Lagge.mp3",
-        albumArt: "images/Soh_Lagge.jpg"
+        url: "songs/Punjabi/Soh_Lagge.mp3",
+        albumArt: "images/Punjabi/Soh_Lagge.jpg"
     },
 
     {
         name: "Tommy",
         singer: "Diljit Dosanjh",
         duration: "02:50",
-        url: "songs/Tommy.mp3",
-        albumArt: "images/Tommy.jpg"
+        url: "songs/Punjabi/Tommy.mp3",
+        albumArt: "images/Punjabi/Tommy.jpg"
     },
 
     {
         name: "Tappe",
         singer: "Ammy Virk",
         duration: "03:30",
-        url: "songs/Tappe.mp3",
-        albumArt: "images/Tappe.jpg"
+        url: "songs/Punjabi/Tappe.mp3",
+        albumArt: "images/Punjabi/Tappe.jpg"
     },
 
     {
@@ -205,86 +213,102 @@ var songs, Punjabi = [
     }
 ];
 
-var korean = [
+var Hindi = [
 
     {
-        name: "Kill This Love",
-        singer: "BlackPink",
-        duration: "03:13",
-        url: "k-pop/Kill_This_Love.mp3",
-        albumArt: "k-pop/Kill_This_Love.jpg"
+        name: "Nadiyon Paar",
+        singer: "Rashmeet Kaur & Shamur",
+        duration: "02:27",
+        url: "songs/Hindi/Nadiyon_Paar.mp3",
+        albumArt: "images/Hindi/Nadiyon_Paar.jpg"
     },
 
     {
-        name: "Boy With Luv",
-        singer: "BTS Feat. Halsey",
-        duration: "04:12",
-        url: "k-pop/Boy_With_Luv.mp3",
-        albumArt: "k-pop/Boy_With_Luv.jpg"
+        name: "Ring Ring",
+        singer: "Emiway Bantai",
+        duration: "03:17",
+        url: "songs/Hindi/Ring_Ring.mp3",
+        albumArt: "images/Hindi/Ring_Ring.jpg"
     },
 
     {
-        name: "Fake Love",
-        singer: "BTS",
-        duration: "04:02",
-        url: "k-pop/Fake_Love.mp3",
-        albumArt: "k-pop/Fake_Love.jpg"
+        name: "Saiyaan Ji",
+        singer: "Honey Singh ft. Neha",
+        duration: "03:25",
+        url: "songs/Hindi/Saiyaan_Ji.mp3",
+        albumArt: "images/Hindi/Saiyaan_Ji.jpg"
     },
 
     {
-        name: "Blood Sweat & Tears",
-        singer: "BTS",
-        duration: "06:03",
-        url: "k-pop/Blood_Sweat_And_Tears.mp3",
-        albumArt: "k-pop/Blood_Sweat_And_Tears.jpg"
+        name: "Vaaste",
+        singer: "Dhvani Bhanushali",
+        duration: "03:16",
+        url: "songs/Hindi/Vaaste.mp3",
+        albumArt: "images/Hindi/Vaaste.jpg"
     },
 
     {
-        name: "FANCY",
-        singer: "Twice",
-        duration: "03:38",
-        url: "k-pop/FANCY.mp3",
-        albumArt: "k-pop/FANCY.jpg"
+        name: "Yaad Piya Ki Aane Lagi",
+        singer: "Neha Kakkar",
+        duration: "04:16",
+        url: "songs/Hindi/Yaad_Piya_Ki_Aane_Lagi.mp3",
+        albumArt: "images/Hindi/Yaad_Piya_Ki_Aane_Lagi.jpg"
     },
 
     {
-        name: "Not Today",
-        singer: "BTS",
-        duration: "04:50",
-        url: "k-pop/Not_Today.mp3",
-        albumArt: "k-pop/Not_Today.jpg"
+        name: "Naach Meri Rani",
+        singer: "Guru Randhawa",
+        duration: "3:32",
+        url: "songs/Hindi/Naach_Meri_Rani.mp3",
+        albumArt: "images/Hindi/Naach_Meri_Rani.jpg"
     },
 
     {
-        name: "Ddu-Du Ddu-Du",
-        singer: "BlackPink",
-        duration: "03:33",
-        url: "k-pop/Ddu-Du_Ddu-Du.mp3",
-        albumArt: "k-pop/Ddu-Du_Ddu-Du.jpg"
+        name: "Khairiyat",
+        singer: "Arijit Singh",
+        duration: "04:30",
+        url: "songs/Hindi/Khairiyat.mp3",
+        albumArt: "images/Hindi/Khairiyat.jpg"
     },
 
     {
-        name: "Feel Special",
-        singer: "Twice",
-        duration: "03:40",
-        url: "k-pop/Feel_Special.mp3",
-        albumArt: "k-pop/Feel_Special.jpg"
+        name: "Kaun Tujhe",
+        singer: "Palak Muchhal",
+        duration: "04:01",
+        url: "songs/Hindi/Kaun_Tujhe.mp3",
+        albumArt: "images/Hindi/Kaun_Tujhe.jpg"
     },
 
     {
-        name: "Whistle",
-        singer: "BlackPink",
-        duration: "03:34",
-        url: "k-pop/Whistle.mp3",
-        albumArt: "k-pop/Whistle.jpg"
+        name: "Genda Phool",
+        singer: "Badshah & Payal Dev",
+        duration: "02:50",
+        url: "songs/Hindi/Genda_Phool.mp3",
+        albumArt: "images/Hindi/Genda_Phool.jpg"
     },
 
     {
-        name: "Save ME",
-        singer: "BTS",
-        duration: "03:36",
-        url: "k-pop/Save_ME.mp3",
-        albumArt: "k-pop/Save_ME.jpg"
+        name: "Gal Karke",
+        singer: "Asees Kaur",
+        duration: "02:37",
+        url: "songs/Hindi/Gal_Karke.mp3",
+        albumArt: "images/Hindi/Gal_Karke.jpg"
+    },
+
+    {
+        name: "Baby Girl",
+        singer: "Guru Randhawa ft. Dhvani",
+        duration: "03:43",
+        url: "songs/Hindi/Baby_Girl.mp3",
+        albumArt: "images/Hindi/Baby_Girl.jpg"
+    },
+
+    {
+        name: "Aankh Marey",
+        singer: "Neha, Mika & Kumar Sanu",
+        duration: "03:32",
+        url: "songs/Hindi/Aankh_Marey.mp3",
+        albumArt: "images/Hindi/Aankh_Marey.jpg"
     },
 
     {
@@ -462,7 +486,7 @@ function changeTheme(id) {
     else
         card[currentProfile.id].style.color = currentProfile.accentColor;
 
-    if (isKorean) {
+    if (isHindi) {
         $('.left-pannel__anime').css('color', currentProfile.accentColor);
     } else {
         $('.left-pannel__favorite').css('color', currentProfile.accentColor);
@@ -546,7 +570,7 @@ function generateElements(ko) {
     $('.list-view').html("");
 
     if (ko) {
-        songs = korean;
+        songs = Hindi;
         $('.left-pannel__anime').text('_Hindi');
         $('.left-pannel__anime').css('color', currentProfile.accentColor);
         $('.left-pannel__favorite').text('Punjabi');
@@ -597,7 +621,7 @@ function generateElements(ko) {
 
     $('.list-view').html(songList);
 
-    this.isKorean = ko;
+    this.isHindi = ko;
 
 }
 
